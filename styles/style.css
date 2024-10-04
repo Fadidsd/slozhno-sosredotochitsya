@@ -1,3 +1,17 @@
+.zone-modified::before,
+.zone-modified::after {
+  content: "";
+  display: block;
+  border-inline-end: 1px solid var(--menu-color, #353430);
+  border-block-start: 1px solid var(--menu-color, #353430);
+  block-size: 25px;
+  inline-size: 25px;
+}
+
+.zone-modified::after {
+  rotate: 180deg;
+}
+
 .page-modified.theme_dark {
   --background-color: #000028;
   --accent-color: #ff0070;
@@ -54,25 +68,13 @@
 }
 
 .header-modified::before {
-  content: "";
   position: absolute;
-  display: block;
-  border-inline-end: 1px solid var(--menu-color, #353430);
-  border-block-start: 1px solid var(--menu-color, #353430);
-  block-size: 25px;
-  inline-size: 25px;
   inset-inline-end: var(--general-padding, 10px);
   inset-block-start: var(--general-padding, 10px);
 }
 
 .header-modified::after {
-  content: "";
   position: absolute;
-  display: block;
-  border-inline-start: 1px solid var(--menu-color, #353430);
-  border-block-end: 1px solid var(--menu-color, #353430);
-  block-size: 25px;
-  inline-size: 25px;
   inset-inline-start: var(--general-padding, 10px);
   inset-block-end: var(--general-padding, 10px);
 }
@@ -199,22 +201,10 @@
 }
 
 .footer-modified::before {
-  content: "";
-  display: block;
   justify-self: end;
-  border-inline-end: 1px solid var(--menu-color, #353430);
-  border-block-start: 1px solid var(--menu-color, #353430);
-  block-size: 25px;
-  inline-size: 25px;
 }
 
 .footer-modified::after {
-  content: "";
-  display: block;
-  border-inline-start: 1px solid var(--menu-color, #353430);
-  border-block-end: 1px solid var(--menu-color, #353430);
-  block-size: 25px;
-  inline-size: 25px;
 }
 
 .footer-modified .decorations-modified {
