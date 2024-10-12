@@ -1,15 +1,4 @@
-.page-modified.theme_dark {
-  --background-color: #000028;
-  --accent-color: #ff0070;
-  --heading-color: #db00ff;
-  --hover-border-color: rgba(255, 0, 112, 0.4);
-  --menu-color: #ff0070;
-  --text-color: #f1b2ce;
-  --title-decor-color: #000028;
-  --title-color: #ff0070;
-  --display-bulb: flex;
-  background-image: url(../images/cover-image-dark.png);
-}
+
 
 .page-modified {
   color: var(--text-color, #353430);
@@ -126,10 +115,15 @@
 
 .title-modified {
   color: var(--title-decor-color, #353430);
+  font-weight: 400;
+  background-color: var(--accent-color, #ff8dcb);
+}
+ 
+.title-modified-fat {
+  color: var(--title-decor-color, #353430);
   font-weight: 700;
   background-color: var(--accent-color, #ff8dcb);
 }
-
 .regular-modified {
   font-weight: 400;
 }
