@@ -1,27 +1,12 @@
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background-color: #000028;
-    --accent-color: #ff0070;
-    --heading-color: #db00ff;
-    --hover-border-color: rgba(255, 0, 112, 0.4);
-    --menu-color: #ff0070;
-    --text-color: #f1b2ce;
-    --title-decor-color: #000028;
-    --title-color: #ff0070;
-    --display-bulb: flex;
-  }
-
-  .page-modified.theme_dark {
-    --background-color: #000028;
-    --accent-color: #ff0070;
-    --heading-color: #db00ff;
-    --hover-border-color: rgba(255, 0, 112, 0.4);
-    --menu-color: #ff0070;
-    --text-color: #f1b2ce;
-    --title-decor-color: #000028;
-    --title-color: #ff0070;
-    --display-bulb: flex;
-    background-image: url(../images/cover-image-dark.png);
-  }
+.page-modified.theme_dark {
+  --background-color: #000028;
+  --accent-color: #ff0070;
+  --heading-color: #db00ff;
+  --hover-border-color: rgba(255, 0, 112, 0.4);
+  --menu-color: #ff0070;
+  --text-color: #f1b2ce;
+  --title-decor-color: #000028;
+  --title-color: #ff0070;
+  --display-bulb: flex;
+  background-image: url(../images/cover-image-dark.png);
 }
-

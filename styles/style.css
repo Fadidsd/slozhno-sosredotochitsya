@@ -88,6 +88,7 @@
   color: var(--heading-color, #ffc2e6);
   font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   line-height: 82.5%;
+  font-weight: 700;
   text-shadow: 4px 4px 0px var(--accent-color, #ff8dcb);
 }
 
@@ -104,6 +105,7 @@
 }
 
 .main-modified__section-title {
+  font-weight: 700;
   color: var(--title-color, #353430);
 }
 
@@ -122,6 +124,7 @@
 .title-modified-fat {
   color: var(--title-decor-color, #353430);
   font-weight: 700;
+  font-size: var(--font-size, 18px);
   background-color: var(--accent-color, #ff8dcb);
 }
 .regular-modified {
